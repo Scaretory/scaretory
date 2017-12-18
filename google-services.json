@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "107470631134",
+    "firebase_url": "https://scaretory-apps.firebaseio.com",
+    "project_id": "scaretory-apps",
+    "storage_bucket": "scaretory-apps.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:107470631134:android:81e0f8ebf0dbdbe7",
+        "android_client_info": {
+          "package_name": "com.scaretory"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "107470631134-pm8i9l2s56fgj1q24u9hs3oc6ns3la2g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCPj0WXBuE_DnLY5y2q4W3V5jvkQ5V6xFo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,73 @@
+/*
+To customize the look and feel of Ionic, you can override the variables
+in ionic's _variables.scss file.
+
+For example, you might change some of the default colors:
+
+$light:                           #fff !default;
+$stable:                          #f8f8f8 !default;
+$positive:                        #387ef5 !default;
+$calm:                            #11c1f3 !default;
+$balanced:                        #33cd5f !default;
+$energized:                       #ffc900 !default;
+$assertive:                       #ef473a !default;
+$royal:                           #886aea !default;
+$dark:                            #000000 !default;
+*/
+
+// The path for our ionicons font files, relative to the built CSS in www/css
+$ionicons-font-path: "../lib/ionic/fonts" !default;
+
+@import "www/lib/ionic/scss/ionic";
+
+ion-view,.pane,.view {
+	background-color: #525252;
+}
+
+.tabs-striped.tabs-stable .tabs {
+	background-color:black;
+	border-color:black
+}
+.tabs-stable > .tabs, .tabs.tabs-stable{
+	background-color:black;
+	border-color:black
+}
+
+.tab-item .icon {
+    color: white;
+}
+
+.tabs-icon-top > .tabs .tab-item, .tabs-icon-top.tabs .tab-item, .tabs-icon-bottom > .tabs .tab-item, .tabs-icon-bottom.tabs .tab-item{
+	color:white
+}
+
+.bar.bar-dark {     
+	background-color:black } 
+
+.tabs-striped.tabs-stable .tab-item.tab-item-active, .tabs-striped.tabs-stable .tab-item.active, .tabs-
+striped.tabs-stable .tab-item.activated{     
+	color:rgb(255, 255, 255); 
+} 
+.tabs-striped.tabs-stable .tab-item {     
+	color: rgba(255, 255, 255, 0.4);     
+	opacity: 1;
+} 
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 
+{     color: rgb(255, 255, 255);
+	font-weight: 500;     
+	font-family: "-apple-system", 
+	"Helvetica Neue","Roboto", "Segoe UI", sans-serif; 
+    line-height: 1.2; 
+    } 
+.item-complex .item-content, .item-radio .item-content {
+     background-color: black;
+     border-color:black;
+} 
+.item-avatar.item-complex, .item-avatar-left.item-complex, .item-thumbnail-left.item-complex {
+    padding-top: 0;
+    padding-left: 0;
+}
+.tabs-top.tabs-striped:not(.tabs-icon-left):not(.tabs-icon-top) .tab-item.tab-item-active .tab-title{
+	color: white
+}
+
