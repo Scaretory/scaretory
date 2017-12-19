@@ -51,7 +51,7 @@ angular.module('app.routes', ['ionicUIRouter'])
       'tab1': {
         templateUrl: 'templates/ceritaSekolah.html',
         controller: 'ceritaSekolahCtrl'
-      }
+      },
     }
   })
   .state('tabsController.ceritaThriller', {
